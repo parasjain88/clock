@@ -13,7 +13,7 @@
     width: 3%;
     height: 3%;
     background-color: rgb(0, 0, 0);
-    border-radius: 50%;
+    border-radius: 100%;
     top: 49%;
     left: 49%;
 }
@@ -21,7 +21,7 @@
 
 #hour,#minute, #second{
     position: absolute;
-    background-color: black;
+    /* background-color: black; */
     border-radius: 10px;
     transform-origin: bottom;
     
@@ -32,24 +32,27 @@
     height: 15%;
     top: 35%;
     left: 49.5%;
-    
+    background-color: black;
     
     
    
 }
 
-#minute{
+
+#second{
+    width: 1.1%;
+    height: 28%;
+    top: 22%;
+    left: 49.9%;
+    background-color: red
+    ;
+ }
+
+ #minute{
   width: 1.5%;
     height: 22%;
     top: 29%;
     left: 49.8%;
-   
+   background-color: black;
     
-}
-#second{
- width: 1.1%;
-    height: 28%;
-    top: 22%;
-    left: 49.9%;
-  
 }
